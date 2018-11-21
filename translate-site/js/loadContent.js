@@ -33,6 +33,10 @@ with (cv.style) {
   padding = '20px 50px 20px 50px';
 }
 
+if (languageId == 'he') {
+  cv.style.direction = "rtl";
+}
+
 function translator(text, lang, element) {
   var params = {
   SourceLanguageCode: 'en',

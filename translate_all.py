@@ -1,5 +1,3 @@
-
-
 #!/usr/local/bin/python2.7
 # coding: utf-8
 
@@ -13,7 +11,7 @@ args = parser.parse_args()
 #print(args)
 
 translate = boto3.client("translate")
-lang_flag_pairs = [("fr", "🇫🇷"), ("de", "🇩🇪"),
+lang_flag_pairs = [("he", "🇮🇱"), ("fr", "🇫🇷"), ("de", "🇩🇪"),
                    ("es", "🇪🇸"), ("pt", "🇵🇹"),
                    ("zh", "🇨🇳"), ("ar", "🕌"),
                    ("ja", "🇯🇵"), ("ru", "🇷🇺"),
