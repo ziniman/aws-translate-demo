@@ -41,7 +41,8 @@ function translator(text, lang, element) {
   var params = {
   SourceLanguageCode: 'en',
   TargetLanguageCode: lang,
-  Text: text
+  Text: text,
+  TerminologyNames: ['Boaz']
   };
   translate.translateText(params, function (err, data) {
     if (err) console.log(err, err.stack);
